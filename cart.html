@@ -21,14 +21,15 @@
 
 <body>
     <header>
-        <div class="header-container">
-            <img class="logoImg" src="img/logo.jpg" alt="imagem do logo da loja SmileShop ">
-            
-            <nav class="text-center">
-                <ul class="list-unstyled d-flex justify-content-center">
-                    <li class="mx-3"><a href="index.html"> Inicio </a></li>
-
-                    <li class="mx-3">
+        <a href="index.html">
+            <img class="logoImg" src="img/logo.jpg" alt="imagem do logo da loja SmileShop">
+        </a>
+        <div class="header-content">
+            <h1>SmileShop</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li>
                         <a href="cart.html">
                             <i class="fa fa-shopping-cart"></i>
                         </a>
@@ -39,11 +40,11 @@
     </header>
 
     <main>
-        <h2>Seu Carrinho</h2>
+        <h2>Seu carrinho</h2>
 
         <div id="cart-items"></div>
         <div id="total"></div>
-        <button id="buttonCart">Encerrar compra</button>
+        <button id="buttonCart" class="btn btn-primary">Encerrar compra</button>
 
     </main>
 

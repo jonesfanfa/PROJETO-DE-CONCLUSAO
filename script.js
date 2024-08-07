@@ -21,6 +21,7 @@ function fetchProdutos() {
                                 <div class="card-body">
                                     <h5 class="card-title">${product.title}</h5>
                                     <p class="card-text">R$ ${product.price.toFixed(2)}</p>
+                                    
                                     <button class="btn btn-primary add-cart"
                                         data-id="${product.id}"
                                         data-title="${product.title}"
